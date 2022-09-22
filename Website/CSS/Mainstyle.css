@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a.overlay {
+    padding: 25px 150px 490px 30px;
+    font-size: 0px;
+}
+
+a.overlay1 {
+    padding: 115px 235px 75px 30px;
+    font-size: 0px;
+}
+
+a.overlay2 {
+    padding: 18px 75px 230px 79px;
+    font-size: 0px;
+}
+
+.container {
+    background: linear-gradient(-45deg, #5c6077, #545a78, #33384b, #161923, #000000);
+    background-size: 400% 400%;
+    animation: gradient 45s ease infinite;
+    height: auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* NAVIGATION BAR*/
+
+.logo {
+    height: 70px;
+    padding-left: 15%;
+}
+
+.Navi {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-color: #252525;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', bold;
+}
+
+.Navi a.active {
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+
+.Navi a:hover {
+    border-radius: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(221, 207, 207);
+    color: rgb(221, 207, 207);
+}
+
+
+/*END OF NAVIGATION BAR*/
+
+.intro-logo img {
+    height: 70px;
+    width: 70px;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+.intro-text {
+    text-align: center;
+    color: white;
+}
+
+.intro-text h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+
+.intro-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.search-box {
+    flex: 1;
+    padding-top: 2rem;
+}
+
+.hero {
+    display: flex;
+    padding: 4.5rem 2.5rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    backdrop-filter: blur(0) contrast(100%);
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1rem;
+    padding: 1.5rem;
+    height: 4rem;
+    opacity: .9;
+}
+
+.search-box__or {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 1rem 0;
+    justify-content: center;
+    color: hsla(0, 0%, 100%, .85);
+}
+
+.search-box__or[data-v-3fe91982]::before {
+    display: block;
+    border-top: 1px solid hsla(0, 0%, 100%, .25);
+    content: "";
+    width: 100%;
+    margin-right: 1.5rem;
+}
+
+.search-box__or[data-v-3fe91982]::after {
+    display: block;
+    border-top: 1px solid hsla(0, 0%, 100%, .25);
+    content: "";
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+.search-box_signins {
+    display: flex;
+    flex-direction: row;
+}
+
+.trn-button {
+    background-color: #d53435;
+    width: 100%;
+    height: 30px;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: .25rem;
+    padding-top: 1rem;
+}
+
+.trn-button span text {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.privattext strong {
+    text-align: 50px;
+    color: wheat;
+}
+
+
+/*Row CSS and the TEXT*/
+
+.cover-content {
+    background-size: cover;
+    height: 900px;
+    width: auto;
+}
+
+.hero {
+    display: flex;
+    padding: 15rem 2.5rem;
+    flex: 0;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    min-width: 50%;
+}
+
+.counter {
+    padding-top: 1rem;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    font-family: Rajdhani, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.cbcirh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 12rem;
+}
+
+.fnZvDw {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: .5rem;
+    background: hsla(0, 0%, 20%, 0.5);
+    margin: 0 .5rem;
+    overflow: auto;
+}
+
+.fnZvDw img,
+.fnZvDw svg {
+    position: absolute;
+    width: 3rem;
+}
+
+.fnZvDw.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background: red;
+    border-radius: 0 0;
+}
+
+.fnZvDw.none-live {
+    opacity: 0.5;
+    background: hsla(0, 1%, 29%, 0.5);
+}
+
+.fnZvDw.active {
+    background: hsla(0, 16%, 89%, 0.5);
+}
+
+
+/*CARDS AGENTS CSS*/
+
+.col1 {
+    margin-left: 15%;
+}
+
+.cardagent {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 3px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.agent1 {
+    background-image: url(images/omen1.jpg);
+}
+
+.agent2 {
+    background-image: url(images/reyna.jpg);
+}
+
+.agent3 {
+    background-image: url(images/jett.jpg);
+}
+
+.agent4 {
+    background-image: url(images/sage.png);
+}
+
+.cardagent:hover {
+    transform: translateY(-10px);
+}
+
+.cardpVl {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 11px;
+    margin-top: 100%;
+}
+
+.h5Vl {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+
+/*HELP OR ABOUT IDK YET!*/
+
+.servicee {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+}
+
+.services {
+    text-align: center;
+}
+
+.services h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid white;
+    border-radius: 10px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+.cen {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.service {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service:hover {
+    background: rgba(214, 117, 190, 0.534);
+}
+
+.service i {
+    color: #ffffff;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.service p {
+    color: rgb(243, 239, 239);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.p1 {
+    font-size: 15px;
+    color: rgb(243, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+/*AGENTS CSS*/
+
+.Agents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.agents {
+    flex-basis: 22%;
+    padding-top: 10%;
+}
+
+.agent {
+    width: 220px;
+    height: 525px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 25px 30px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.agent:hover {
+    transform: translateY(-10px);
+}
+
+.col2 {
+    margin-left: 0%;
+}
+
+.agents1 {
+    background-image: url(images/Agents/BrimstoneCard.jpg);
+}
+
+.agents2 {
+    background-image: url(images/Agents/CypherCard.jpg);
+}
+
+.agents3 {
+    background-image: url(images/Agents/JettCard.jpg);
+}
+
+.agents4 {
+    background-image: url(images/Agents/KilljoyCard.jpg);
+}
+
+.agents5 {
+    background-image: url(images/Agents/OmenCard.jpg);
+}
+
+.agents6 {
+    background-image: url(images/Agents/PhoenixCard.jpg);
+}
+
+.agents7 {
+    background-image: url(images/Agents/ReynaCard.jpg);
+}
+
+.agents8 {
+    background-image: url(images/Agents/SageCard.jpg);
+}
+
+.agents9 {
+    background-image: url(images/Agents/SkyeCard.jpg);
+}
+
+.agents10 {
+    background-image: url(images/Agents/SovaCard.jpg);
+}
+
+
+/*CONTACT US CSSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.contactus {
+    max-width: 800px;
+    height: 600px;
+    background: rgb(6, 2, 75);
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.pc {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.input,
+.msg .area {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transform: all 0.5s ease;
+}
+
+.login .input {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.login .input:last-child {
+    margin-right: 0;
+}
+
+.msg .area {
+    height: 200px;
+}
+
+.btn {
+    width: 250px;
+    background: #01a4b9;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus {
+    border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'roboto';
+}
+
+footer p {
+    padding: 0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 1em 0;
+}
+
+footer ul li a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+}
+
+footer {
+    width: auto;
+    background: #180041;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+    font-size: 1.2rem;
+}
+
+
+/*MEDIA SCREEN IPHONE X*/
+
+@media screen and (max-width: 376px) {
+    body {
+        background-position: 51%;
+    }
+    nav {
+        flex: 0;
+        text-align: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        align-items: center;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}

@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a.overlay {
+    padding: 25px 150px 490px 30px;
+    font-size: 0px;
+}
+
+a.overlay1 {
+    padding: 115px 235px 75px 30px;
+    font-size: 0px;
+}
+
+a.overlay2 {
+    padding: 17px 78px 173px 730px;
+    font-size: 0px;
+    transition: 0.5s;
+}
+
+a.overlay2:hover {
+    transform: translateY(-10px);
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 57, 57, 1) 35%, rgba(34, 34, 34, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* NAVIGATION BAR*/
+
+.Navi {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.Navi a.active {
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+
+.Navi a:hover {
+    border-radius: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(221, 207, 207);
+    color: rgb(221, 207, 207);
+}
+
+
+/*END OF NAVIGATION BAR*/
+
+.titlenews {
+    color: #fff;
+    font-size: 60px;
+    padding-left: 22%;
+    font-family: 'Roboto';
+}
+
+
+/*Row CSS and the TEXT*/
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 5% 0% 20% 0%;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    padding: 7% 25% 0% 25%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    padding: 7% 35% 0% 15%;
+}
+
+.col {
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: row;
+}
+
+.hVl {
+    color: #fff;
+    font-size: 30px;
+    flex-basis: 45%;
+}
+
+.pVl {
+    color: rgb(189, 185, 185);
+    font-size: 21px;
+    line-height: 23px;
+    padding-top: 20px;
+}
+
+
+/*CARDS AGENTS CSS*/
+
+.col1 {
+    padding-top: 2%;
+    margin-left: 15%;
+}
+
+.cardagent {
+    width: 340px;
+    height: 191px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 3px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.agent1 {
+    background-image: url(images/News/Val_Banner_State-of-the-Agents_1920x1080.jpg);
+}
+
+.agent2 {
+    background-image: url(images/News/Article_Banner_system_health_1920x1080.jpg);
+}
+
+.agent3 {
+    background-image: url(images/News/12122021-DieForYou_ZeddRemix_banner.jpeg);
+}
+
+.agent4 {
+    background-image: url(images/News/Yoru_1920x1080.jpeg);
+}
+
+.agent5 {
+    background-image: url(images/News/Chamber_Skye_1920x1080.jpeg);
+}
+
+.agent6 {
+    background-image: url(images/News/network_indicators_banner.jpeg);
+}
+
+.agent7 {
+    background-image: url(images/News/jinxfinale.jpeg);
+}
+
+.agent8 {
+    background-image: url(images/News/11242021-Trophy-article-banner.jpeg);
+}
+
+.agent9 {
+    background-image: url(images/News/11242021-Skins_v2-articlebanner.jpeg);
+}
+
+.agent10 {
+    background-image: url(images/News/VCT_Champions_MV_article-baneer.jpeg);
+}
+
+.agent11 {
+    background-image: url(images/News/[11_20-EMBARGO]-Riot_RiotXArcane_Phase02_OptimizedBanner.jpeg);
+}
+
+.cardagent:hover {
+    transform: translateY(-10px);
+}
+
+
+/*HELP OR ABOUT IDK YET!*/
+
+
+/*AGENTS CSS*/
+
+
+/*CONTACT US CSSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.contactus {
+    max-width: 800px;
+    height: 600px;
+    background: rgb(6, 2, 75);
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.pc {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.input,
+.msg .area {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transform: all 0.5s ease;
+}
+
+.login .input {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.login .input:last-child {
+    margin-right: 0;
+}
+
+.msg .area {
+    height: 200px;
+}
+
+.btn {
+    width: 250px;
+    background: #01a4b9;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus {
+    border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'roboto';
+}
+
+footer p {
+    padding: 0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 1em 0;
+}
+
+footer ul li a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+}
+
+footer {
+    width: auto;
+    background: #180041;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+    font-size: 1.2rem;
+}
+
+
+/*MEDIA SCREEN IPHONE X*/
+
+@media screen and (max-width: 376px) {
+    body {
+        background-position: 51%;
+    }
+    nav {
+        flex: 0;
+        text-align: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        align-items: center;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="CSS/Register.css">
+<script src="Register.js"></script>
+
+<head>
+	<title> REGISTER FORM
+	</title>
+</head>
+
+<body>
+
+	<div class="center">
+		<div class="back"> <input type="button" value="Back" onclick="validate2()"> <h1>Register</h1></div>
+		<form method="post" role="form" onsubmit="signUp(event);" autocomplete="off">
+			<div class="txt_field">
+				<input id="fname" type="text" required>
+				<span></span>
+				<label>Name</label>
+			</div>
+			<div class="txt_field">
+				<input id="lname" type="text" required>
+				<span></span>
+				<label>Surname</label>
+			</div>
+			<div class="txt_field">
+				<input type="text" required id="email">
+				<span></span>
+				<label>Email</label>
+			</div>
+			<div class="txt_field">
+				<input id="pwd" type="password" required>
+				<span></span>
+				<label>Password</label>
+			</div>
+			<input id="btn" type="submit" value="Register">
+			<br>
+			<br>
+		</form>
+	</div>
+
+
+</body>
+
+</html>

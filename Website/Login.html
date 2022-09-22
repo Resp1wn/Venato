@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="CSS/Login.css">
+	<script src="Register.js"></script>
+
+<head>
+	<title> LOGIN FORM
+	</title>
+</head>
+<body>
+	
+	<div class="center">
+		<h1>Login</h1>
+		<form method="post" role="form" onsubmit="signIn(event);" autocomplete="off">
+		  <div class="txt_field">
+			<input type="text" required id="email">
+			<span></span>
+			<label>Email</label>
+		  </div>
+		  <div class="txt_field">
+			<input type="password" required id="pwd">
+			<span></span>
+			<label>Password</label>
+		  </div>
+		  <input type="submit" value="Login" onclick="validate()">
+		  <input type="button" value="Register" onclick="register()">
+		  <br>
+		  <br>
+		</form>
+	  </div>
+
+
+</body>
+</html>
